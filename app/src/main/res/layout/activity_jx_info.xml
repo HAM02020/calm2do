@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    tools:context=".JxInfo">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/img_cat"
+        android:src="@drawable/fatcat_gif"
+        android:layout_height="200dp"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-45dp"
+        android:layout_above="@+id/ll" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/corner"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:text="恭喜你！"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/tv_finsh_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="静学成功的次数为："/>
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/tv_finsh_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="静学成功的时长为："/>
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:text="失败是成功之母"/>
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/tv_fail_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="静学失败的次数为："/>
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/tv_fail_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="你在xx时间，静学了xx时间就放弃了"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

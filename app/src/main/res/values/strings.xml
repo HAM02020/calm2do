@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">静来学</string>
+    <string name="j1">让你和朋友们一同专注一同进步</string>
+    <string name="j2">设置属于你的专注时间，支持多人一同专注，邀请你的朋友们一起专注吧！</string>
+    <string name="j3">多人专注 天天向上</string>
+    <string name="l1">让专注成为你今后的生活方式</string>
+    <string name="l2">详细的数据记录你的每一次专注，见证自己一步步的专注历程</string>
+    <string name="l3">科学统计 不懈学习</string>
+    <string name="x1">让宠物陪伴你的专注时刻</string>
+    <string name="x2">宠物需要你专注的付出，和你的宠物一起成长吧！</string>
+    <string name="x3">宠物养成 趣味更多</string>
+    <string name="login_1">用户名</string>
+    <string name="login_2">******</string>
+    <string name="register_1">用户名</string>
+    <string name="register_2">邮箱</string>
+    <string name="register_3">密码</string>
+    <string name="register_4">确认密码</string>
+    <string name="register_5">已有账号？登录</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+</resources>
